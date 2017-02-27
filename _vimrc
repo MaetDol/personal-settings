@@ -1,3 +1,17 @@
+set nocompatible
+ filetype off
+ 
+ set rtp+=~/.vim/bundle/Vundle.vim
+ call vundle#begin()
+  
+ Plugin 'VundleVim/Vundle.vim'
+ Plugin 'autocomplpop'
+ Plugin 'gruvbox'
+ 
+call vundle#end()
+filetype plugin indent on
+" End Vundle setting
+
 set hlsearch                   " Highlight search
 set number                     " Show Number of line
 set autoindent
