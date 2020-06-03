@@ -52,4 +52,3 @@ syntax on
 set t_Co=256                   " Tell terminal to use 256 colors
 colorscheme gruvbox
 set background=dark
-
