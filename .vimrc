@@ -4,7 +4,6 @@
 " 2. PluginInstall
 " 3. :so {Current file name}
 
-
 " ---------------------------Vundle Setting
 set nocompatible
 filetype off
@@ -15,6 +14,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'autocomplpop'
 Plugin 'gruvbox'
+Plugin 'maxmellon/vim-jsx-pretty' " Apply jsx syntax
+Plugin 'preservim/nerdtree'       " Launch type :NERDTree It will show current tree
 
 call vundle#end()
 filetype plugin indent on
