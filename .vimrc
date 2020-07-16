@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'autocomplpop'
 Plugin 'gruvbox'
 Plugin 'maxmellon/vim-jsx-pretty' " Apply jsx syntax
+Plugin 'alvan/vim-closetag'       " It will close html tag automatically
 Plugin 'preservim/nerdtree'       " Launch type :NERDTree It will show current tree
 
 call vundle#end()
@@ -60,3 +61,5 @@ syntax on
 set t_Co=256                   " Tell terminal to use 256 colors
 colorscheme gruvbox
 set background=dark
+
+let g:closetag_filenames = '*.html,*.js,*.jsx' " vim-closetag setting
