@@ -56,6 +56,7 @@ set bs=indent,eol,start	       " Use backspace key
 set nobackup
 set title
 set ruler                      " Show position of cursor
+set enc=utf-8
 
 syntax on
 set t_Co=256                   " Tell terminal to use 256 colors
