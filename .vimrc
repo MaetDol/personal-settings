@@ -16,7 +16,6 @@ Plugin 'autocomplpop'
 Plugin 'gruvbox'
 Plugin 'maxmellon/vim-jsx-pretty' " Apply jsx syntax
 Plugin 'alvan/vim-closetag'       " It will close html tag automatically
-Plugin 'preservim/nerdtree'       " Launch type :NERDTree It will show current tree
 
 call vundle#end()
 filetype plugin indent on
