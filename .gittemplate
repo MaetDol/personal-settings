@@ -5,11 +5,14 @@
 # 해당 파일을 템플릿으로 설정. 경로는 절대경로로 할 것!
 #   git config --global commit.template ~/.gittemplate
 #
-# 빔을 커밋 메시지 작성 에디터로 설정
-#   git config --global core.editor 'vim'
+# 빔을 커밋 메시지 작성 에디터로 설정 하지만 AutocomplPop은 비활성화
+#   git config --global core.editor 'vim +AcpDisable'
 #
 # 커밋시 사용할 유저 정보 등록
 #   git config --global user.name 'MaetDol'
 #   git config --global user.email 'email@gmail.com'
+# 
+# 특정 레포지토리에서 유저네임 입력없이 바로 비밀번호만 묻게 할때 사용. 해당 레포 폴더에서 사용할 것
+#   git remote set-url origin https://{Username}@github.com/{Username}/{Repository name}.git
 
 # ----- 본문은 69자 이내로 작성 ----------------------------------------------|
