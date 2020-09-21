@@ -49,6 +49,6 @@ set title
 set ruler                      " Show position of cursor
 
 syntax on
-set t_Co=256                   " Tell terminal to use 256 colors
+set t_Co=256                   " Set terminal to use 256 colors
 colorscheme gruvbox
 set background=dark
