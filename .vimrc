@@ -1,3 +1,9 @@
+" Install vundle 
+" Referrer: https://github.com/VundleVim/Vundle.vim
+" 1. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" 2. PluginInstall
+" 3. :so {Current file name}
+
 " ---------------------------Vundle Setting
 set nocompatible
 filetype off
@@ -8,6 +14,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'autocomplpop'
 Plugin 'gruvbox'
+Plugin 'maxmellon/vim-jsx-pretty' " Apply jsx syntax
+Plugin 'alvan/vim-closetag'       " It will close html tag automatically
 
 call vundle#end()
 filetype plugin indent on
@@ -47,8 +55,11 @@ set bs=indent,eol,start	       " Use backspace key
 set nobackup
 set title
 set ruler                      " Show position of cursor
+set enc=utf-8
 
 syntax on
 set t_Co=256                   " Set terminal to use 256 colors
 colorscheme gruvbox
 set background=dark
+
+let g:closetag_filenames = '*.html,*.js,*.jsx' " vim-closetag setting
