@@ -5,7 +5,8 @@
 " 3. :so {Current file name} " It will reload current file state
 
 " Use this vimrc instead create new file or copy
-" alias vim='vim -u <current vimrc location>
+" alias vim='vim -u <current vimrc location>'
+" -u <file> means use <file> as vimrc
 
 " ---------------------------Vundle Setting
 set nocompatible
