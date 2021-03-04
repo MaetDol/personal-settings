@@ -1,8 +1,11 @@
-" Install vundle 
+" How install vundle
 " Referrer: https://github.com/VundleVim/Vundle.vim
 " 1. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " 2. PluginInstall
-" 3. :so {Current file name}
+" 3. :so {Current file name} " It will reload current file state
+
+" Use this vimrc instead create new file or copy
+" alias vim='vim -u <current vimrc location>
 
 " ---------------------------Vundle Setting
 set nocompatible
