@@ -18,7 +18,10 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export ZSH="$HOME/.oh-my-zsh"
 
 # custom theme
-# https://ohmyz.sh/#install
+# Headline 테마
+# https://github.com/Moarram/headline?tab=readme-ov-file#installation
+# ..와 같이 쓰면 좋은 `FiraCode Nerd Mono`
+# https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.0/FiraCode.zip
 source ~/workspace/headline.zsh-theme
 
 # disable automatic updates
