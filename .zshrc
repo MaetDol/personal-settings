@@ -31,6 +31,8 @@ zstyle ':omz:update' mode disabled
 HIST_STAMPS="yyyy-mm-dd"
 
 # $ZSH/plugins/ :: $ZSH_CUSTOM/plugins/
+# zsh-autosuggestions install command: 
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 plugins=( 
     git
     zsh-autosuggestions
